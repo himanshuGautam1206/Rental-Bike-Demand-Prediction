@@ -57,14 +57,14 @@ an **R² of ~0.93** on the test set.
 ```
 rental-bike-demand-prediction/
 ├── data/
-│   └── SeoulBikeData.csv          # Raw dataset
+│   └── RawData.csv
 ├── models/
 │   ├── xgboost_regressor_r2_0_928_v1.pkl   # Trained XGBoost model
 │   └── sc.pkl                              # Fitted StandardScaler
-├── notebooks/
-│   └── Rental_Bike_Demand.ipynb   # Full EDA, training & tuning workflow
+├── Rental_Bike_Demand.ipynb   # Full EDA, training & tuning workflow
+├── Inference.ipynb
 ├── src/
-│   └── inference.py               # Reusable inference class + CLI
+│   └── inference.py            
 ├── requirements.txt
 └── README.md
 ```
